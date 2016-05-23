@@ -63,21 +63,7 @@ int main() {
     ((short*)sdram_ptr)[i] = 0;
   }
 */
-  readWeightsL1(sdram_ptr);
-  readBiasL1(sdram_ptr);
-  readWeightsL2(sdram_ptr);
-  readBiasL2(sdram_ptr);
-  readWeightsLF(sdram_ptr);
-  readTestLabels(sdram_ptr);
-  
-  for (i = 0; i < 400; i++){
-    readImg(sdram_ptr, i);
-  }
 
-
-  printf("DONE READING\n");
-
-//########################################################################################## NN ALGOR
 //####### TIMER STUFF BEGIN
 	
     clock_t begin, end;
@@ -86,13 +72,37 @@ int main() {
     time_spent = 0;
 
 
+
+
+  readWeightsL1(sdram_ptr);
+  readBiasL1(sdram_ptr);
+  readWeightsL2(sdram_ptr);
+  readBiasL2(sdram_ptr);
+  readWeightsLF(sdram_ptr);
+  readTestLabels(sdram_ptr);
+ 
+
+
+  for (i = 0; i < 400; i++){
+    readImg(sdram_ptr, i);
+  }
+
+
+  printf("DONE READING\n");
+
+//########################################################################################## NN ALGOR
+
+
+
   Correct = 0;
   maxIndex = 0;
   x = 0;
   i = 0;
 
-  for (x = 0; x < 400; x++){ // 100
     begin = clock(); 
+
+  for (x = 0; x < 400; x++){ // 100
+ 
 
     // start algo
     maxIndex = NNalgo(sdram_ptr,&x,done_ptr,ready_ptr,done_ptr2,ready_ptr2);
@@ -100,16 +110,19 @@ int main() {
     // check if returned index = actual number
     if (maxIndex == ((short*)sdram_ptr)[TESTLABEL_BASE + x]) {Correct++;}
 
-	end = clock();
-    time_spent += ((float)(end - begin) / CLOCKS_PER_SEC);
 
     // replace current img area w/ next image
-    for (i = 0; i < 196; i++){ // 784
-        ((short*)sdram_ptr)[IMG_BASE2 + i] = ((short*)sdram_ptr)[IMG_BASE2 + (196 * (x+1)) + i];
+    for (i = 0; i < IMG_COMPRESS_SIZE; i++){ // 784
+        ((short*)sdram_ptr)[IMG_BASE2 + i] = ((short*)sdram_ptr)[IMG_BASE2 + (IMG_COMPRESS_SIZE * (x+1)) + i];
     }
   }// for
 
+	end = clock();
+    time_spent += ((float)(end - begin) / CLOCKS_PER_SEC);
+
     printf("Time spent = %f_secs \n", time_spent);
+
+
   //####### TIMER STUFF END
   printf("Num of Correct = %d\n",Correct);
 
