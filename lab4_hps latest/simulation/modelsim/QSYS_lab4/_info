@@ -1,0 +1,2543 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/julam5/Desktop/181_Lab4_current/lab4_hps/simulation/modelsim
+valt_vipitc131_common_fifo
+Z1 !s110 1457827418
+!i10b 1
+!s100 G?d3QL2WEQYEi^bja^nHG2
+IM5A08ZE0fgZcSN[S:aO;]2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1457820482
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_fifo.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_fifo.v
+L0 1
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1457827418.321437
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_fifo.v|
+!i113 1
+Z5 o-vlog01compat -work QSYS_lab4
+Z6 !s92 -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules
+valt_vipitc131_common_generic_count
+R1
+!i10b 1
+!s100 >G@49SKI0Y5l@Z>KmjAQQ1
+IkllN5AKgkL4hjlMkA81_63
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_generic_count.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_generic_count.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827418.470859
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_generic_count.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_generic_count.v|
+!i113 1
+R5
+R6
+valt_vipitc131_common_sync
+R1
+!i10b 1
+!s100 0KL>5`KLP1YI[2MJ`G?Pi2
+I_=loWYc;1GYfWe3WbXQ[O2
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_sync.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_sync.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827418.632568
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_sync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_sync.v|
+!i113 1
+R5
+R6
+valt_vipitc131_common_trigger_sync
+R1
+!i10b 1
+!s100 3AC^cMaE:D7_=VE<eo8O]2
+IHI^PjViCM47hfYSLI;P8Y1
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_trigger_sync.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_trigger_sync.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827418.800092
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_trigger_sync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_trigger_sync.v|
+!i113 1
+R5
+R6
+valt_vipitc131_IS2Vid_calculate_mode
+!s110 1457827416
+!i10b 1
+!s100 JSVVAHM:BO5]8GP5`S0BB1
+IbOEnC0lUG_VhD=Bo>>`S81
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827413.841841
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v|
+!i113 1
+R5
+R6
+nalt_vipitc131_@i@s2@vid_calculate_mode
+valt_vipitc131_IS2Vid_control
+!s110 1457827417
+!i10b 1
+!s100 aDmYzhhAMDJCzH45303Mo3
+IzL`i:^NBLch7_n;L4U4R=3
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_control.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_control.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827417.309094
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_control.v|
+!i113 1
+R5
+R6
+nalt_vipitc131_@i@s2@vid_control
+valt_vipitc131_IS2Vid_statemachine
+R1
+!i10b 1
+!s100 fNo:E1WQjTdP:8VeYU[;z3
+ICf2g7mGobBlUIIE4^UH;e3
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827418.159896
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v|
+!i113 1
+R5
+R6
+nalt_vipitc131_@i@s2@vid_statemachine
+valt_vipvfr131_common_avalon_mm_slave
+Z7 !s110 1457827413
+!i10b 1
+!s100 >9d[Rc=K@4WS__25FG4>i3
+IF7dI@NSSDiO@N[k[SKV]W1
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827413.431812
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_common_stream_output
+R7
+!i10b 1
+!s100 bVGG@0PabU_ozk5bg0JhS1
+I^GehiV=FUhCT6762SHL=52
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_stream_output.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_stream_output.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827413.649638
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_stream_output.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_stream_output.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_prc
+!s110 1457827412
+!i10b 1
+!s100 Z1>m=B`R[;0<9PhW59LPe0
+IK^bU4g:P^A;gm?RR8kKkV3
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1457827412.830480
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_prc_core
+R7
+!i10b 1
+!s100 <biS^4j7C=Q=WFE2=G_J41
+IG?;QS9@?JW?Qdf4=bZcOl2
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_core.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_core.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1457827413.050191
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_core.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_prc_read_master
+R7
+!i10b 1
+!s100 2h>f8Bn>>ZN8W^zNilU_o1
+I4JKV31VO_l4gAZ8SR1E]z1
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_read_master.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_read_master.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827413.243364
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_read_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_read_master.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_vfr
+Z8 !s110 1457827411
+!i10b 1
+!s100 4<azQ19RzT[kUiUZ_aI1e1
+I_Ko>GLmQh>LCUVo_bS`UA1
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827411.081784
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_vfr_control_packet_encoder
+R8
+!i10b 1
+!s100 f9X<`=d^kR[FUVR^c9Fg@3
+I1TTC[9e`OGM>02O>D4D<[1
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827411.481744
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v|
+!i113 1
+R5
+R6
+valt_vipvfr131_vfr_controller
+R8
+!i10b 1
+!s100 Uig@P3JRdTlQE]2n6COe<3
+Il?6c_P5z73L[7h8^8B0nJ1
+R2
+R0
+R3
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_controller.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_controller.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827411.292948
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_controller.v|
+!i113 1
+R5
+R6
+valtdq_dqs2_acv_connect_to_hard_phy_cyclonev
+Z9 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z10 !s110 1457740780
+!i10b 1
+!s100 [<T]M4If3I?XeTRG8YjC70
+IOYWKH3GKbCS7IXk9:T0FC1
+R2
+!s105 altdq_dqs2_acv_connect_to_hard_phy_cyclonev_sv_unit
+S1
+R0
+Z11 w1457735453
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv
+L0 19
+R4
+r1
+!s85 0
+31
+!s108 1457740780.282930
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv|
+!i113 1
+Z12 o-sv -work QSYS_lab4
+Z13 !s92 -sv -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules
+valtera_avalon_sc_fifo
+Z14 !s110 1457740775
+!i10b 1
+!s100 2@;YleiQS51@UMb7^^WbN1
+I3fLR?h4zI?6EW6NfT;MFb3
+R2
+R0
+Z15 w1457735422
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_sc_fifo.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_sc_fifo.v
+Z16 L0 21
+R4
+r1
+!s85 0
+31
+!s108 1457740774.986636
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+R5
+R6
+valtera_avalon_st_clock_crosser
+Z17 !s110 1457827420
+!i10b 1
+!s100 _kMN<BJ0mkgSFXTW`85Bh2
+I1JTW8BoB26ZUYOT2>z7KU0
+R2
+R0
+Z18 w1457820492
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_clock_crosser.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_clock_crosser.v
+Z19 L0 22
+R4
+r1
+!s85 0
+31
+!s108 1457827420.709706
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R5
+R6
+valtera_avalon_st_handshake_clock_crosser
+R17
+!i10b 1
+!s100 <TeLS^R[XXnBHVSJ0:LXK0
+I5:cj35m:4ULbnYfD36NF@0
+R2
+R0
+R18
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z20 L0 24
+R4
+r1
+!s85 0
+31
+!s108 1457827420.532852
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R5
+R6
+valtera_mem_if_dll_cyclonev
+R9
+R10
+!i10b 1
+!s100 GhOih5b@][FhhX]@:i8QJ1
+Iinmm3ISKNT7ong1E6Xfi63
+R2
+!s105 altera_mem_if_dll_cyclonev_sv_unit
+S1
+R0
+R11
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_dll_cyclonev.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_dll_cyclonev.sv
+Z21 L0 23
+R4
+r1
+!s85 0
+31
+!s108 1457740780.798963
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_dll_cyclonev.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_dll_cyclonev.sv|
+!i113 1
+R12
+R13
+valtera_mem_if_hard_memory_controller_top_cyclonev
+R9
+Z22 !s110 1457740781
+!i10b 1
+!s100 EHQDY6^eojW8mG8IXGzk@0
+IAVTM1beYWHS8@YGl5XDFa1
+R2
+!s105 altera_mem_if_hard_memory_controller_top_cyclonev_sv_unit
+S1
+R0
+R11
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv
+Z23 L0 18
+R4
+r1
+!s85 0
+31
+!s108 1457740780.977171
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv|
+!i113 1
+R12
+R13
+valtera_mem_if_hhp_qseq_synth_top
+Z24 !s110 1457827409
+!i10b 1
+!s100 N_QfhY9G55ERAG1GzlAo@2
+IIH5bzj2dTTRj0oh7TI]ji1
+R2
+R0
+Z25 w1457820525
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v
+L0 15
+R4
+r1
+!s85 0
+31
+!s108 1457827409.280064
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v|
+!i113 1
+R5
+R6
+valtera_mem_if_oct_cyclonev
+R9
+R10
+!i10b 1
+!s100 h`IG3`Hzj<:B?gb=83cW72
+IY<MVn;_FLd3jC`0R_JIaO3
+R2
+!s105 altera_mem_if_oct_cyclonev_sv_unit
+S1
+R0
+R11
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_oct_cyclonev.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_oct_cyclonev.sv
+R21
+R4
+r1
+!s85 0
+31
+!s108 1457740780.636244
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_oct_cyclonev.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_oct_cyclonev.sv|
+!i113 1
+R12
+R13
+valtera_merlin_address_alignment
+R9
+Z26 !s110 1457740774
+!i10b 1
+!s100 aUimn1UedDJ]i:QTo9W833
+IDRQG;g:=Z[ebF6BYE?2F72
+R2
+!s105 altera_merlin_address_alignment_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_address_alignment.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_address_alignment.sv
+L0 26
+R4
+r1
+!s85 0
+31
+!s108 1457740774.636984
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_address_alignment.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_address_alignment.sv|
+!i113 1
+R12
+R13
+valtera_merlin_arb_adder
+R9
+Z27 !s110 1457740773
+!i10b 1
+!s100 K`mj4ab`UI=f=Bzd]0FbK0
+Ibd:ecGUhAMVRKO]DIKgDl2
+R2
+Z28 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R15
+Z29 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_arbitrator.sv
+Z30 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R4
+r1
+!s85 0
+31
+Z31 !s108 1457740773.297022
+Z32 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+R12
+R13
+valtera_merlin_arbitrator
+R9
+R27
+!i10b 1
+!s100 Ni=FjEDhlN5HaJIeO8C?D0
+I>B7GQKo]80;Kz0_4]Hg4T3
+R2
+R28
+S1
+R0
+R15
+R29
+R30
+L0 103
+R4
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R12
+R13
+valtera_merlin_axi_master_ni
+R9
+R14
+!i10b 1
+!s100 `I>cGm0i:CLeA7:D5_99L1
+IdLULG8QH7_j]n9e]e=CSZ1
+R2
+!s105 altera_merlin_axi_master_ni_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_master_ni.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_master_ni.sv
+L0 27
+R4
+r1
+!s85 0
+31
+!s108 1457740775.875176
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_master_ni.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_master_ni.sv|
+!i113 1
+R12
+R13
+valtera_merlin_axi_slave_ni
+R9
+R10
+!i10b 1
+!s100 ]cgH^A5Cz4Z0H:4>3NBk>3
+ISASn`V=_nle70Qig<R9dC1
+R2
+!s105 altera_merlin_axi_slave_ni_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_slave_ni.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_slave_ni.sv
+R19
+R4
+r1
+!s85 0
+31
+!s108 1457740780.075675
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_slave_ni.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_axi_slave_ni.sv|
+!i113 1
+R12
+R13
+valtera_merlin_burst_adapter
+R9
+R26
+!i10b 1
+!s100 bZ1:f>0J6eV<A[jRUL5_B2
+I5K[JI;aC56]MPA?7hl7e;2
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter.sv
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457740774.249079
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R12
+R13
+valtera_merlin_burst_adapter_13_1
+R9
+R26
+!i10b 1
+!s100 lNf_O7;g=BL:IS32NNCWJ2
+IXBXNlMMD3PX8J0WghXi?i1
+R2
+Z34 !s105 altera_merlin_burst_adapter_13_1_sv_unit
+S1
+R0
+R15
+Z35 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+Z36 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+L0 264
+R4
+r1
+!s85 0
+31
+Z37 !s108 1457740774.417815
+Z38 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv|
+Z39 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv|
+!i113 1
+R12
+R13
+valtera_merlin_burst_adapter_adder
+R9
+R26
+!i10b 1
+!s100 eLgXF2k:C88dKn_>:S0@?1
+Ik9Hn5HRo?j:WFnOGLFg_71
+R2
+R34
+S1
+R0
+R15
+R35
+R36
+L0 55
+R4
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R12
+R13
+valtera_merlin_burst_adapter_burstwrap_increment
+R9
+R26
+!i10b 1
+!s100 k[`mOX=m9NgOfYV6>fzIR3
+IMOIkVK`1T>8b_f<<?DB4L1
+R2
+R34
+S1
+R0
+R15
+R35
+R36
+Z40 L0 40
+R4
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R12
+R13
+valtera_merlin_burst_adapter_min
+R9
+R26
+!i10b 1
+!s100 k@Fdj5aS`IejUh[b@B<d33
+IOA@hNOka3>i9O5n9EK9kR0
+R2
+R34
+S1
+R0
+R15
+R35
+R36
+L0 98
+R4
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R12
+R13
+valtera_merlin_burst_adapter_subtractor
+R9
+R26
+!i10b 1
+!s100 3nMfY`gC_:azzfSULAX8f2
+I1d`W;fDjca33m1kAWaBIM2
+R2
+R34
+S1
+R0
+R15
+R35
+R36
+Z41 L0 77
+R4
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R12
+R13
+valtera_merlin_burst_uncompressor
+R9
+R14
+!i10b 1
+!s100 GURQ=I3dUngBFBEkGhKmh3
+ICOKmeYQ;`_EO_koA^]dLh2
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+R40
+R4
+r1
+!s85 0
+31
+!s108 1457740775.704803
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R12
+R13
+valtera_merlin_master_agent
+R9
+Z42 !s110 1457740777
+!i10b 1
+!s100 ;96Rc=znn;@WbB0jWGRRl1
+I4?548@8ZUOWR75aeXMiAR0
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_agent.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_agent.sv
+Z43 L0 28
+R4
+r1
+!s85 0
+31
+!s108 1457740777.717923
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R12
+R13
+valtera_merlin_master_translator
+R9
+!s110 1457740778
+!i10b 1
+!s100 6[_D]96gi`8O488PiFWUc1
+IG==[?AlkT9d[:GhGXcdKI3
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_translator.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_translator.sv
+L0 30
+R4
+r1
+!s85 0
+31
+!s108 1457740777.878604
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R12
+R13
+valtera_merlin_slave_agent
+R9
+R14
+!i10b 1
+!s100 3LfTAj;bB3aAXgCgCn_bT3
+IgNMEB9CITGSBD^fDd<jJO3
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_agent.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_agent.sv
+L0 34
+R4
+r1
+!s85 0
+31
+!s108 1457740775.496826
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R12
+R13
+valtera_merlin_slave_translator
+R9
+Z44 !s110 1457740776
+!i10b 1
+!s100 dTa]H8`_eei9>oMl>o5z71
+IKPhTDQoIeLUGhRUHzQTT33
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_translator.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R4
+r1
+!s85 0
+31
+!s108 1457740776.067511
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R12
+R13
+valtera_merlin_traffic_limiter
+R9
+R26
+!i10b 1
+!s100 gQE>6=R[U[<[CM5g8OG^:3
+I@@fOIFjP11[GRM<:d1S=L2
+R2
+!s105 altera_merlin_traffic_limiter_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_traffic_limiter.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_traffic_limiter.sv
+L0 49
+R4
+r1
+!s85 0
+31
+!s108 1457740774.797489
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!i113 1
+R12
+R13
+valtera_merlin_width_adapter
+R9
+R44
+!i10b 1
+!s100 g=LN@e0hT7O1f_GYh[W>G3
+IMoOQO:aU4:cUmVT3IOH>j1
+R2
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_width_adapter.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_width_adapter.sv
+Z45 L0 25
+R4
+r1
+!s85 0
+31
+!s108 1457740776.348757
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R12
+R13
+valtera_reset_controller
+Z46 !s110 1457827404
+!i10b 1
+!s100 VEhLaE^KT@RiagZkfkKI93
+ITz90hjoXAF?9mInEUN;Wh3
+R2
+R0
+Z47 w1457820489
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_controller.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_controller.v
+L0 42
+R4
+r1
+!s85 0
+31
+!s108 1457827404.601657
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R5
+R6
+valtera_reset_synchronizer
+R46
+!i10b 1
+!s100 UTD:?4E=?>;X@do<;V;hQ1
+IZYzlGX5V;lG<iZgl`_FMo0
+R2
+R0
+R47
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_synchronizer.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_synchronizer.v
+R20
+R4
+r1
+!s85 0
+31
+!s108 1457827404.802973
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R5
+R6
+valtera_up_avalon_reset_from_locked_signal
+Z48 !s110 1457827406
+!i10b 1
+!s100 21LY9FTb`4C4iU[D9:fdD3
+I>T6A4fS5PIgLOR=MQ6VWJ0
+R2
+R0
+Z49 w1457820490
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v
+R43
+R4
+r1
+!s85 0
+31
+!s108 1457827406.712668
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!i113 1
+R5
+R6
+vhps_sdram
+R24
+!i10b 1
+!s100 jbW90WZhb:4iXkRi;gdi^0
+I]>_M@AaF55ljY=1TY6VFL2
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827409.082344
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0
+R9
+R22
+!i10b 1
+!s100 dec;nOicOOR1TmJE@@WG_1
+I9T;kCd]>^`;0J_:I41K^F3
+R2
+!s105 hps_sdram_p0_sv_unit
+S1
+R0
+R11
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0.sv
+R23
+R4
+r1
+!s85 0
+31
+!s108 1457740781.267525
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0.sv|
+!i113 1
+R12
+R13
+vhps_sdram_p0_acv_hard_addr_cmd_pads
+R24
+!i10b 1
+!s100 GiO=m[V=`hW`1IzE[mGV31
+I1:CQJ_c:oZQ;<PnNHcGL]1
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v
+Z50 L0 17
+R4
+r1
+!s85 0
+31
+!s108 1457827409.840079
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0_acv_hard_io_pads
+Z51 !s110 1457827410
+!i10b 1
+!s100 ^b>J32m2MBjR5nbemg9Oh3
+I^[4dcPd`1zHA>M8FF81EO3
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v
+R50
+R4
+r1
+!s85 0
+31
+!s108 1457827410.279658
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0_acv_hard_memphy
+R51
+!i10b 1
+!s100 R<Q6GiVP6]O=E><AVIC9c0
+I0_YYKD95d:dRHl@5XfKeX0
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457827410.532821
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0_acv_ldc
+R51
+!i10b 1
+!s100 @X;TlSleXAJ3f2LY7gg_?0
+IMP?JW6J5_D9]j2G?R2z:I3
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_ldc.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_ldc.v
+R50
+R4
+r1
+!s85 0
+31
+!s108 1457827410.731479
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_ldc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_ldc.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0_altdqdqs
+R51
+!i10b 1
+!s100 Xk]PjMGV;<WQjf6YEGK3:1
+I<[X?h[fUmdcPezk>fZ=mW1
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_altdqdqs.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_altdqdqs.v
+R50
+R4
+r1
+!s85 0
+31
+!s108 1457827410.081650
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_altdqdqs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_altdqdqs.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0_clock_pair_generator
+R24
+!i10b 1
+!s100 _R4W?Gz]?;bEWHjnK9ME`1
+IE6eC^ieQ@bmS4UlWNQS6E1
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v
+L0 29
+R4
+r1
+!s85 0
+31
+!s108 1457827409.460980
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v|
+!i113 1
+R5
+R6
+vhps_sdram_p0_generic_ddio
+R24
+!i10b 1
+!s100 =SH07BS;f]=boE=QCb3]m3
+ICf<U7ii_;J1_AJ8<MSYQG3
+R2
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_generic_ddio.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_generic_ddio.v
+R50
+R4
+r1
+!s85 0
+31
+!s108 1457827409.661364
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_generic_ddio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_generic_ddio.v|
+!i113 1
+R5
+R6
+vhps_sdram_pll
+R9
+R22
+!i10b 1
+!s100 BK6i<n[8>znMfCb>h;5Ic2
+I5BM9S^7XQb:f9Dn>hhbXa2
+R2
+!s105 hps_sdram_pll_sv_unit
+S1
+R0
+R11
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_pll.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_pll.sv
+R45
+R4
+r1
+!s85 0
+31
+!s108 1457740781.446356
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_pll.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_pll.sv|
+!i113 1
+R12
+R13
+vQSYS_lab4
+R46
+!i10b 1
+!s100 KG=B?j<VmC52azoWEgMH?3
+IM[E`Q378Tb0iYFI7HL@:F2
+R2
+R0
+w1457820481
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/QSYS_lab4.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/QSYS_lab4.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1457827404.106967
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/QSYS_lab4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/QSYS_lab4.v|
+!i113 1
+R5
+!s92 -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis
+n@q@s@y@s_lab4
+vQSYS_lab4_done_from_sdram_master
+R51
+!i10b 1
+!s100 E?WOIDz^gblYT?S>75SFl0
+I]?fT;bNJ:PnRPkTaPAV`V0
+R2
+R0
+w1457820483
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_done_from_sdram_master.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_done_from_sdram_master.v
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457827410.903733
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_done_from_sdram_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_done_from_sdram_master.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_done_from_sdram_master
+vQSYS_lab4_hps_0
+Z52 !s110 1457827408
+!i10b 1
+!s100 jn<mM_5k:iZV1K1eTLm?V1
+I=lkX03=`g[:nj4TIQOZh?3
+R2
+R0
+Z53 w1457820485
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827408.700832
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_hps_0
+vQSYS_lab4_hps_0_hps_io
+R52
+!i10b 1
+!s100 <L4bdAk2i<enV4L;^AoHd3
+ImW1U8Fdfl3IV]2SXg0IgI2
+R2
+R0
+R49
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0_hps_io.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0_hps_io.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827408.909782
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0_hps_io.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0_hps_io.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_hps_0_hps_io
+vQSYS_lab4_irq_mapper
+R9
+R17
+!i10b 1
+!s100 0?>;P8UBm^_`C^SNR6=Ja1
+IkP7f=QZPFfZKjco1g<Z6Q1
+R2
+!s105 QSYS_lab4_irq_mapper_sv_unit
+S1
+R0
+R47
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper.sv
+Z54 L0 31
+R4
+r1
+!s85 0
+31
+!s108 1457827420.211860
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_irq_mapper
+vQSYS_lab4_irq_mapper_001
+R9
+R17
+!i10b 1
+!s100 aYDM]Hk^<[KPe4zQi_Z?R0
+I[68B^^c<E9e>^<H7CXz;m2
+R2
+!s105 QSYS_lab4_irq_mapper_001_sv_unit
+S1
+R0
+R47
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper_001.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper_001.sv
+R54
+R4
+r1
+!s85 0
+31
+!s108 1457827420.059964
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper_001.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper_001.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_irq_mapper_001
+vQSYS_lab4_jtag_uart_0
+R52
+!i10b 1
+!s100 m7e;SSDF9m8D9z7798EWl1
+IB_G21?R[n=M7TPDkfj5;O1
+R2
+R0
+R53
+Z55 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_jtag_uart_0.v
+Z56 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_jtag_uart_0.v
+L0 327
+R4
+r1
+!s85 0
+31
+Z57 !s108 1457827408.072896
+Z58 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_jtag_uart_0.v|
+Z59 !s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_jtag_uart_0.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_jtag_uart_0
+vQSYS_lab4_jtag_uart_0_scfifo_r
+R52
+!i10b 1
+!s100 GlomVme=LoTaYLcL?YeAP3
+IChXldOJX:VD5gYocKMo1n1
+R2
+R0
+R53
+R55
+R56
+L0 240
+R4
+r1
+!s85 0
+31
+R57
+R58
+R59
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_jtag_uart_0_scfifo_r
+vQSYS_lab4_jtag_uart_0_scfifo_w
+R52
+!i10b 1
+!s100 YC`P3e13Xl5Eo>VO2>iNO3
+I[7SQ_OE5b2fZ6b_?YSWj52
+R2
+R0
+R53
+R55
+R56
+R41
+R4
+r1
+!s85 0
+31
+R57
+R58
+R59
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_jtag_uart_0_scfifo_w
+vQSYS_lab4_jtag_uart_0_sim_scfifo_r
+R52
+!i10b 1
+!s100 W0]jF3l?T`7[jT49d2IiO2
+ImYdUc>7>T0HaVVb?V4fQo3
+R2
+R0
+R53
+R55
+R56
+L0 162
+R4
+r1
+!s85 0
+31
+R57
+R58
+R59
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_jtag_uart_0_sim_scfifo_r
+vQSYS_lab4_jtag_uart_0_sim_scfifo_w
+R52
+!i10b 1
+!s100 NX_9HJ0mB]EB1PgYajN]42
+IkYVJPW6DaoMS763N1z@2I3
+R2
+R0
+R53
+R55
+R56
+R16
+R4
+r1
+!s85 0
+31
+R57
+R58
+R59
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_jtag_uart_0_sim_scfifo_w
+vQSYS_lab4_leds
+Z60 !s110 1457827407
+!i10b 1
+!s100 ?PIZfjPJNXz2X`aS3eQX51
+IiPaoUgnf5W2_a9bZTHg7A1
+R2
+R0
+Z61 w1457820486
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_leds.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_leds.v
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457827407.901557
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_leds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_leds.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_leds
+vQSYS_lab4_mm_interconnect_0
+R48
+!i10b 1
+!s100 nd;Y?6`21MF[gV<l@e4`c1
+I6`n70Agz`NaFXEWYJD=_R1
+R2
+R0
+Z62 w1457820487
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827406.140793
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_mm_interconnect_0
+vQSYS_lab4_mm_interconnect_0_cmd_demux
+R9
+Z63 !s110 1457740779
+!i10b 1
+!s100 3^lTSJ??L[B0FzLTC9d]j0
+IfF8`C8SH2UOo9QF=eKZHV0
+R2
+!s105 QSYS_lab4_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_demux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_demux.sv
+Z64 L0 43
+R4
+r1
+!s85 0
+31
+!s108 1457740779.585593
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_cmd_demux
+vQSYS_lab4_mm_interconnect_0_cmd_mux
+R9
+R63
+!i10b 1
+!s100 AYn4i;m<J`G:XjVcnQlLS0
+I3]j2EZgU3j7CQAMeD:hmO3
+R2
+!s105 QSYS_lab4_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_mux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_mux.sv
+Z65 L0 51
+R4
+r1
+!s85 0
+31
+!s108 1457740779.427589
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_cmd_mux
+vQSYS_lab4_mm_interconnect_0_router
+R9
+R63
+!i10b 1
+!s100 c5LLd18G3Q3I9W5B4`I0?0
+ILPe3HBNDiZR63`Bh8m=Sb3
+R2
+Z66 !s105 QSYS_lab4_mm_interconnect_0_router_sv_unit
+S1
+R0
+R15
+Z67 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router.sv
+Z68 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router.sv
+Z69 L0 84
+R4
+r1
+!s85 0
+31
+Z70 !s108 1457740779.907939
+Z71 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router.sv|
+Z72 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_router
+vQSYS_lab4_mm_interconnect_0_router_001
+R9
+R63
+!i10b 1
+!s100 0Dlm>YYNZ;`0TZD1m3kJE0
+I;`LFTg>cSnMI:WNEB^2A>0
+R2
+Z73 !s105 QSYS_lab4_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R15
+Z74 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router_001.sv
+Z75 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router_001.sv
+R69
+R4
+r1
+!s85 0
+31
+Z76 !s108 1457740779.746298
+Z77 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router_001.sv|
+Z78 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_router_001.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_router_001
+vQSYS_lab4_mm_interconnect_0_router_001_default_decode
+R9
+R63
+!i10b 1
+!s100 f0eP0JOc;NTR^Rnd8Xn`C1
+I7>fZ7>nSE8>NSZC_^XX7?1
+R2
+R73
+S1
+R0
+R15
+R74
+R75
+Z79 L0 45
+R4
+r1
+!s85 0
+31
+R76
+R77
+R78
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_router_001_default_decode
+vQSYS_lab4_mm_interconnect_0_router_default_decode
+R9
+R63
+!i10b 1
+!s100 30m<UXYWR7A2lEfic^JD53
+InzzK=>WEPHMzJ1D1d95ed3
+R2
+R66
+S1
+R0
+R15
+R67
+R68
+R79
+R4
+r1
+!s85 0
+31
+R70
+R71
+R72
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_router_default_decode
+vQSYS_lab4_mm_interconnect_0_rsp_demux
+R9
+R63
+!i10b 1
+!s100 fRjbJ`Ma0n51XJ=T@YMdV2
+IkZlCQ7Kma5Q6B7S39LP:H2
+R2
+!s105 QSYS_lab4_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_demux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_demux.sv
+R64
+R4
+r1
+!s85 0
+31
+!s108 1457740779.275441
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_rsp_demux
+vQSYS_lab4_mm_interconnect_0_rsp_mux
+R9
+R63
+!i10b 1
+!s100 8D4]nz^OQSmh2og<Mj:=W3
+IX9mdQ`;`WHhPj0nPPF^VH2
+R2
+!s105 QSYS_lab4_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_mux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_mux.sv
+R65
+R4
+r1
+!s85 0
+31
+!s108 1457740779.108649
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_0_rsp_mux
+vQSYS_lab4_mm_interconnect_1
+Z80 !s110 1457827405
+!i10b 1
+!s100 ^8fY9mmK1b4HM_4?I80i72
+I_nAZ`R49KFC7^A<QHZ>;j3
+R2
+R0
+w1457820488
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827405.659928
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_mm_interconnect_1
+vQSYS_lab4_mm_interconnect_1_avalon_st_adapter
+R80
+!i10b 1
+!s100 :=QS@[Z[WCDbTNZjjhCoU2
+IC:IGP]Lzf8g?1J;3D579T3
+R2
+R0
+R18
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827405.891965
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_mm_interconnect_1_avalon_st_adapter
+vQSYS_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0
+R9
+R44
+!i10b 1
+!s100 Vf^a^=D5K:U^WHQB7@JB41
+Ih:e3SoYf8AIM>j<87VkP>0
+R2
+!s105 QSYS_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R11
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0.sv
+Z81 L0 66
+R4
+r1
+!s85 0
+31
+!s108 1457740776.228015
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_avalon_st_adapter_error_adapter_0
+vQSYS_lab4_mm_interconnect_1_cmd_demux
+R9
+R42
+!i10b 1
+!s100 6JmF^=`3=mf3d<QZn9G4T2
+I>L=9JK>0c15do]nX4kA;K3
+R2
+!s105 QSYS_lab4_mm_interconnect_1_cmd_demux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_demux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_demux.sv
+R64
+R4
+r1
+!s85 0
+31
+!s108 1457740777.056606
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_demux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_cmd_demux
+vQSYS_lab4_mm_interconnect_1_cmd_mux
+R9
+R44
+!i10b 1
+!s100 VM71No^CfGOXEg_[bG7iD0
+I3z0<cmLJ;nk4giO3T4[FA0
+R2
+!s105 QSYS_lab4_mm_interconnect_1_cmd_mux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_mux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_mux.sv
+R65
+R4
+r1
+!s85 0
+31
+!s108 1457740776.896352
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_cmd_mux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_cmd_mux
+vQSYS_lab4_mm_interconnect_1_router
+R9
+R42
+!i10b 1
+!s100 4E1eYZ7`X<1BoX6`h:SfG3
+IhO:NeZN6XDKU]=Lb7Xh^>1
+R2
+Z82 !s105 QSYS_lab4_mm_interconnect_1_router_sv_unit
+S1
+R0
+R15
+Z83 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router.sv
+Z84 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router.sv
+R69
+R4
+r1
+!s85 0
+31
+Z85 !s108 1457740777.554851
+Z86 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router.sv|
+Z87 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_router
+vQSYS_lab4_mm_interconnect_1_router_002
+R9
+R42
+!i10b 1
+!s100 4gl`R2[BJ963YnO]e9I;]2
+ISOjk2KKW_[Wl^3KcG[jLF0
+R2
+Z88 !s105 QSYS_lab4_mm_interconnect_1_router_002_sv_unit
+S1
+R0
+R15
+Z89 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_002.sv
+Z90 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_002.sv
+R69
+R4
+r1
+!s85 0
+31
+Z91 !s108 1457740777.385974
+Z92 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_002.sv|
+Z93 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_002.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_router_002
+vQSYS_lab4_mm_interconnect_1_router_002_default_decode
+R9
+R42
+!i10b 1
+!s100 IO277`Mcb<<Io:Bi9NPHO3
+I]Yj^RV6zk7Ah6n94_NoSi2
+R2
+R88
+S1
+R0
+R15
+R89
+R90
+R79
+R4
+r1
+!s85 0
+31
+R91
+R92
+R93
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_router_002_default_decode
+vQSYS_lab4_mm_interconnect_1_router_003
+R9
+R42
+!i10b 1
+!s100 ;ECKc6FKOn?Rae8chi^a>1
+I7YG7K5^<a8=3:Ajg_]?Ce2
+R2
+Z94 !s105 QSYS_lab4_mm_interconnect_1_router_003_sv_unit
+S1
+R0
+R15
+Z95 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_003.sv
+Z96 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_003.sv
+R69
+R4
+r1
+!s85 0
+31
+Z97 !s108 1457740777.216738
+Z98 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_003.sv|
+Z99 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_router_003.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_router_003
+vQSYS_lab4_mm_interconnect_1_router_003_default_decode
+R9
+R42
+!i10b 1
+!s100 @3Ihk^O3<E:7T2_EE>7k31
+IHadYhg`AEz@4ch]m?ACKb3
+R2
+R94
+S1
+R0
+R15
+R95
+R96
+R79
+R4
+r1
+!s85 0
+31
+R97
+R98
+R99
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_router_003_default_decode
+vQSYS_lab4_mm_interconnect_1_router_default_decode
+R9
+R42
+!i10b 1
+!s100 d[Qb6o3?AD;k8cH1RQco=2
+IRQNHUHJMIzVIWJcMMYzTD1
+R2
+R82
+S1
+R0
+R15
+R83
+R84
+R79
+R4
+r1
+!s85 0
+31
+R85
+R86
+R87
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_router_default_decode
+vQSYS_lab4_mm_interconnect_1_rsp_demux
+R9
+R44
+!i10b 1
+!s100 I[Pe5iP1BkeZKi6ZPh8mV0
+I22cGDJBWDSOhh2k@D>:bI2
+R2
+!s105 QSYS_lab4_mm_interconnect_1_rsp_demux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_demux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_demux.sv
+R64
+R4
+r1
+!s85 0
+31
+!s108 1457740776.736726
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_demux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_rsp_demux
+vQSYS_lab4_mm_interconnect_1_rsp_mux
+R9
+R44
+!i10b 1
+!s100 zSBSEI=G;o7O:6PXbGF9P0
+IE:N`ECK^DP4R_SDL;dkIR2
+R2
+!s105 QSYS_lab4_mm_interconnect_1_rsp_mux_sv_unit
+S1
+R0
+R15
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_mux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_mux.sv
+R65
+R4
+r1
+!s85 0
+31
+!s108 1457740776.574713
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_rsp_mux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_1_rsp_mux
+vQSYS_lab4_mm_interconnect_2
+R80
+!i10b 1
+!s100 R;K@I1c?1YJ:GPzkT7>1`2
+INH9[D2Yf;7>1mZ7Z:8Wjl3
+R2
+R0
+R47
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827404.961779
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_mm_interconnect_2
+vQSYS_lab4_mm_interconnect_2_avalon_st_adapter
+R80
+!i10b 1
+!s100 d^l3OWT<`aa=VUKBD==I02
+In2Y4`Y?9=85:3J[K[fRW[3
+R2
+R0
+R18
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827405.471479
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_mm_interconnect_2_avalon_st_adapter
+vQSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0
+R9
+R17
+!i10b 1
+!s100 M;ihja5?gG<dOiYic`[nm0
+I9aCIYz]LR7SzBDCNE7Jn61
+R2
+!s105 QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R25
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0.sv
+R81
+R4
+r1
+!s85 0
+31
+!s108 1457827420.372021
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0
+vQSYS_lab4_mm_interconnect_2_cmd_demux
+R9
+R26
+!i10b 1
+!s100 5JczNhCP4UcS=a@`XW6UM0
+IYJN[f`]f?_:L8hGL7E9Bl3
+R2
+!s105 QSYS_lab4_mm_interconnect_2_cmd_demux_sv_unit
+S1
+R0
+Z100 w1457735423
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_demux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_demux.sv
+R64
+R4
+r1
+!s85 0
+31
+!s108 1457740774.097057
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_demux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_cmd_demux
+vQSYS_lab4_mm_interconnect_2_cmd_mux
+R9
+R27
+!i10b 1
+!s100 e^NH9eL5c3cfk0OjIMI5_0
+IRmM1]=5XWz;R1TY@`m4d`2
+R2
+!s105 QSYS_lab4_mm_interconnect_2_cmd_mux_sv_unit
+S1
+R0
+R100
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_mux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_mux.sv
+R65
+R4
+r1
+!s85 0
+31
+!s108 1457740773.945231
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_cmd_mux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_cmd_mux
+vQSYS_lab4_mm_interconnect_2_router
+R9
+R14
+!i10b 1
+!s100 m678A[4]XDDIL9RZ7J@Li0
+I<1@7k_Y;cCG]WjczcfUV;0
+R2
+Z101 !s105 QSYS_lab4_mm_interconnect_2_router_sv_unit
+S1
+R0
+R15
+Z102 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router.sv
+Z103 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router.sv
+R69
+R4
+r1
+!s85 0
+31
+Z104 !s108 1457740775.335979
+Z105 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router.sv|
+Z106 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_router
+vQSYS_lab4_mm_interconnect_2_router_002
+R9
+R14
+!i10b 1
+!s100 Og`b?bNO3b7dec=[9;Fo<1
+IEd?GZUiYPdPHYoek1UBRe2
+R2
+Z107 !s105 QSYS_lab4_mm_interconnect_2_router_002_sv_unit
+S1
+R0
+R100
+Z108 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router_002.sv
+Z109 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router_002.sv
+R69
+R4
+r1
+!s85 0
+31
+Z110 !s108 1457740775.175927
+Z111 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router_002.sv|
+Z112 !s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_router_002.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_router_002
+vQSYS_lab4_mm_interconnect_2_router_002_default_decode
+R9
+R14
+!i10b 1
+!s100 :SS=LZWO8Y[22Hn5QfBB91
+IJiM3LKQ9Ad99k4X1>g6h61
+R2
+R107
+S1
+R0
+R100
+R108
+R109
+R79
+R4
+r1
+!s85 0
+31
+R110
+R111
+R112
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_router_002_default_decode
+vQSYS_lab4_mm_interconnect_2_router_default_decode
+R9
+R14
+!i10b 1
+!s100 1W<0U6O5_[E4aGUK<]D5?2
+IlG_n;=0o>@QNz_JLn56Mo2
+R2
+R101
+S1
+R0
+R15
+R102
+R103
+R79
+R4
+r1
+!s85 0
+31
+R104
+R105
+R106
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_router_default_decode
+vQSYS_lab4_mm_interconnect_2_rsp_demux
+R9
+R27
+!i10b 1
+!s100 <UCKYak7gfIC;No5<7b];1
+I]6ONEFmj0_=TM`@I5fjIM0
+R2
+!s105 QSYS_lab4_mm_interconnect_2_rsp_demux_sv_unit
+S1
+R0
+R100
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux.sv
+R64
+R4
+r1
+!s85 0
+31
+!s108 1457740773.794888
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_rsp_demux
+vQSYS_lab4_mm_interconnect_2_rsp_demux_001
+R9
+R27
+!i10b 1
+!s100 cfPEE28fV:Ac_@GB7635n0
+I7@6Lb2hRa4>>zLVXb1OY@3
+R2
+!s105 QSYS_lab4_mm_interconnect_2_rsp_demux_001_sv_unit
+S1
+R0
+R100
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux_001.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux_001.sv
+R64
+R4
+r1
+!s85 0
+31
+!s108 1457740773.639128
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_demux_001.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_rsp_demux_001
+vQSYS_lab4_mm_interconnect_2_rsp_mux
+R9
+R27
+!i10b 1
+!s100 `1<WS:<n>dT5fe2bJag;=2
+IH40@93RnPf3gGF]XAM?Yi3
+R2
+!s105 QSYS_lab4_mm_interconnect_2_rsp_mux_sv_unit
+S1
+R0
+R100
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_mux.sv
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_mux.sv
+R65
+R4
+r1
+!s85 0
+31
+!s108 1457740773.477358
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_rsp_mux.sv|
+!i113 1
+R12
+R13
+n@q@s@y@s_lab4_mm_interconnect_2_rsp_mux
+vQSYS_lab4_pll_0
+R60
+!i10b 1
+!s100 A]S3>NDH2E;jRW^JO>Yom0
+IHiJhRTdENBMOcFBkfEO:70
+R2
+R0
+R61
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_0.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_0.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1457827407.729658
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_0.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_pll_0
+vQSYS_lab4_pll_1
+R60
+!i10b 1
+!s100 DjUk0OAYUI3iA;5Xd:zR[0
+IaIM3KccFn<=P_gn^gkFZ]0
+R2
+R0
+R61
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_1.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_1.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1457827407.552188
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_1.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_pll_1
+vQSYS_lab4_ready_from_HPS
+R60
+!i10b 1
+!s100 jhO72h4L<Am0j0UUna0Z_1
+IiM]leil92FBGN>DBRH3LN2
+R2
+R0
+R61
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_ready_from_HPS.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_ready_from_HPS.v
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457827407.390814
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_ready_from_HPS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_ready_from_HPS.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_ready_from_@h@p@s
+vQSYS_lab4_SDRAM
+Z113 !s110 1457827419
+!i10b 1
+!s100 <E8S_GkS6GSYZ<eQ_NjJa0
+I]_fRbWALiTjW[f3faO5LH2
+R2
+R0
+R3
+Z114 8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_SDRAM.v
+Z115 F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_SDRAM.v
+L0 158
+R4
+r1
+!s85 0
+31
+Z116 !s108 1457827418.952566
+Z117 !s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_SDRAM.v|
+Z118 !s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_SDRAM.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_@s@d@r@a@m
+vQSYS_lab4_SDRAM_input_efifo_module
+R113
+!i10b 1
+!s100 kT?ak@:Y9lIDiGmlB3egd0
+IRdg1;GL_6KlBeFE7Ca>Cl0
+R2
+R0
+R3
+R114
+R115
+R16
+R4
+r1
+!s85 0
+31
+R116
+R117
+R118
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_@s@d@r@a@m_input_efifo_module
+vQSYS_lab4_switches
+R60
+!i10b 1
+!s100 T7gK:o:OnMaB<<TlFk@Z@2
+IRkAK@59f;=XRQgb[Tl6@93
+R2
+R0
+R61
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_switches.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_switches.v
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457827407.032269
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_switches.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_switches.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_switches
+vQSYS_lab4_sys_sdram_pll_0
+R48
+!i10b 1
+!s100 fk]3fo2MC_UUXJl;C6oG00
+I:G0[]aSMV@7F?W?Jn5?az3
+R2
+R0
+R62
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457827406.540705
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_sys_sdram_pll_0
+vQSYS_lab4_sys_sdram_pll_0_sys_pll
+R48
+!i10b 1
+!s100 DRXC<]bN]fTf=A^24zkQ?3
+IHbA_del]R^807X<Xi2CnN0
+R2
+R0
+R49
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0_sys_pll.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0_sys_pll.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1457827406.870617
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0_sys_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0_sys_pll.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_sys_sdram_pll_0_sys_pll
+vQSYS_lab4_sysid_qsys_0
+R48
+!i10b 1
+!s100 MzJ46P`>?TYUc:llcCHQb2
+I85M_zICNH^]fbdC?@f6DT1
+R2
+R0
+R62
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sysid_qsys_0.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sysid_qsys_0.v
+R16
+R4
+r1
+!s85 0
+31
+!s108 1457827406.331638
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sysid_qsys_0.v|
+!i113 1
+R5
+R6
+n@q@s@y@s_lab4_sysid_qsys_0
+vsdram_master_lab4
+R113
+!i10b 1
+!s100 QBbSUFPc:Ll4cPQ:4;oEL2
+I>T@eA8a?8zSOYQQ33_=R22
+R2
+R0
+w1457818430
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1457827419.882947
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QSYS_lab4|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules|/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4.v|
+!i113 1
+R5
+R6

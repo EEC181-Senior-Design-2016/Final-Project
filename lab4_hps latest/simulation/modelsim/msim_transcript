@@ -1,0 +1,590 @@
+# do lab4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /apps/Altera/15.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /apps/Altera/15.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib QSYS_lab4
+# ** Warning: (vlib-34) Library already exists at "QSYS_lab4".
+# vmap QSYS_lab4 QSYS_lab4
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet QSYS_lab4 QSYS_lab4 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/QSYS_lab4.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:24 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/QSYS_lab4.v 
+# -- Compiling module QSYS_lab4
+# 
+# Top level modules:
+# 	QSYS_lab4
+# End time: 16:03:24 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:24 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 16:03:24 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:24 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 16:03:24 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:24 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2.v 
+# -- Compiling module QSYS_lab4_mm_interconnect_2
+# 
+# Top level modules:
+# 	QSYS_lab4_mm_interconnect_2
+# End time: 16:03:25 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:25 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter.v 
+# -- Compiling module QSYS_lab4_mm_interconnect_2_avalon_st_adapter
+# 
+# Top level modules:
+# 	QSYS_lab4_mm_interconnect_2_avalon_st_adapter
+# End time: 16:03:25 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:25 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1.v 
+# -- Compiling module QSYS_lab4_mm_interconnect_1
+# 
+# Top level modules:
+# 	QSYS_lab4_mm_interconnect_1
+# End time: 16:03:25 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:25 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_1_avalon_st_adapter.v 
+# -- Compiling module QSYS_lab4_mm_interconnect_1_avalon_st_adapter
+# 
+# Top level modules:
+# 	QSYS_lab4_mm_interconnect_1_avalon_st_adapter
+# End time: 16:03:26 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:26 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_0.v 
+# -- Compiling module QSYS_lab4_mm_interconnect_0
+# 
+# Top level modules:
+# 	QSYS_lab4_mm_interconnect_0
+# End time: 16:03:26 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sysid_qsys_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:26 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sysid_qsys_0.v 
+# -- Compiling module QSYS_lab4_sysid_qsys_0
+# 
+# Top level modules:
+# 	QSYS_lab4_sysid_qsys_0
+# End time: 16:03:26 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:26 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0.v 
+# -- Compiling module QSYS_lab4_sys_sdram_pll_0
+# 
+# Top level modules:
+# 	QSYS_lab4_sys_sdram_pll_0
+# End time: 16:03:26 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:26 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v 
+# -- Compiling module altera_up_avalon_reset_from_locked_signal
+# 
+# Top level modules:
+# 	altera_up_avalon_reset_from_locked_signal
+# End time: 16:03:26 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0_sys_pll.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:26 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_sys_sdram_pll_0_sys_pll.v 
+# -- Compiling module QSYS_lab4_sys_sdram_pll_0_sys_pll
+# 
+# Top level modules:
+# 	QSYS_lab4_sys_sdram_pll_0_sys_pll
+# End time: 16:03:26 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_switches.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:26 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_switches.v 
+# -- Compiling module QSYS_lab4_switches
+# 
+# Top level modules:
+# 	QSYS_lab4_switches
+# End time: 16:03:27 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4_problems_old.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:27 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4_problems_old.v 
+# -- Compiling module sdram_master_lab4
+# 
+# Top level modules:
+# 	sdram_master_lab4
+# End time: 16:03:27 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_ready_from_HPS.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:27 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_ready_from_HPS.v 
+# -- Compiling module QSYS_lab4_ready_from_HPS
+# 
+# Top level modules:
+# 	QSYS_lab4_ready_from_HPS
+# End time: 16:03:27 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_1.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:27 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_1.v 
+# -- Compiling module QSYS_lab4_pll_1
+# 
+# Top level modules:
+# 	QSYS_lab4_pll_1
+# End time: 16:03:27 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:27 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_pll_0.v 
+# -- Compiling module QSYS_lab4_pll_0
+# 
+# Top level modules:
+# 	QSYS_lab4_pll_0
+# End time: 16:03:27 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_leds.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:27 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_leds.v 
+# -- Compiling module QSYS_lab4_leds
+# 
+# Top level modules:
+# 	QSYS_lab4_leds
+# End time: 16:03:28 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_jtag_uart_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:28 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_jtag_uart_0.v 
+# -- Compiling module QSYS_lab4_jtag_uart_0_sim_scfifo_w
+# -- Compiling module QSYS_lab4_jtag_uart_0_scfifo_w
+# -- Compiling module QSYS_lab4_jtag_uart_0_sim_scfifo_r
+# -- Compiling module QSYS_lab4_jtag_uart_0_scfifo_r
+# -- Compiling module QSYS_lab4_jtag_uart_0
+# 
+# Top level modules:
+# 	QSYS_lab4_jtag_uart_0
+# End time: 16:03:28 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:28 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0.v 
+# -- Compiling module QSYS_lab4_hps_0
+# 
+# Top level modules:
+# 	QSYS_lab4_hps_0
+# End time: 16:03:28 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0_hps_io.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:28 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_hps_0_hps_io.v 
+# -- Compiling module QSYS_lab4_hps_0_hps_io
+# 
+# Top level modules:
+# 	QSYS_lab4_hps_0_hps_io
+# End time: 16:03:29 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:29 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram.v 
+# -- Compiling module hps_sdram
+# 
+# Top level modules:
+# 	hps_sdram
+# End time: 16:03:29 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:29 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v 
+# -- Compiling module altera_mem_if_hhp_qseq_synth_top
+# 
+# Top level modules:
+# 	altera_mem_if_hhp_qseq_synth_top
+# End time: 16:03:29 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:29 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v 
+# -- Compiling module hps_sdram_p0_clock_pair_generator
+# 
+# Top level modules:
+# 	hps_sdram_p0_clock_pair_generator
+# End time: 16:03:29 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_generic_ddio.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:29 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_generic_ddio.v 
+# -- Compiling module hps_sdram_p0_generic_ddio
+# 
+# Top level modules:
+# 	hps_sdram_p0_generic_ddio
+# End time: 16:03:29 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:29 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v 
+# -- Compiling module hps_sdram_p0_acv_hard_addr_cmd_pads
+# 
+# Top level modules:
+# 	hps_sdram_p0_acv_hard_addr_cmd_pads
+# End time: 16:03:30 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_altdqdqs.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:30 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_altdqdqs.v 
+# -- Compiling module hps_sdram_p0_altdqdqs
+# 
+# Top level modules:
+# 	hps_sdram_p0_altdqdqs
+# End time: 16:03:30 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:30 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v 
+# -- Compiling module hps_sdram_p0_acv_hard_io_pads
+# 
+# Top level modules:
+# 	hps_sdram_p0_acv_hard_io_pads
+# End time: 16:03:30 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:30 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v 
+# -- Compiling module hps_sdram_p0_acv_hard_memphy
+# 
+# Top level modules:
+# 	hps_sdram_p0_acv_hard_memphy
+# End time: 16:03:30 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_ldc.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:30 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/hps_sdram_p0_acv_ldc.v 
+# -- Compiling module hps_sdram_p0_acv_ldc
+# 
+# Top level modules:
+# 	hps_sdram_p0_acv_ldc
+# End time: 16:03:30 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_done_from_sdram_master.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:30 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_done_from_sdram_master.v 
+# -- Compiling module QSYS_lab4_done_from_sdram_master
+# 
+# Top level modules:
+# 	QSYS_lab4_done_from_sdram_master
+# End time: 16:03:31 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:31 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr.v 
+# -- Compiling module alt_vipvfr131_vfr
+# 
+# Top level modules:
+# 	alt_vipvfr131_vfr
+# End time: 16:03:31 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:31 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_controller.v 
+# -- Compiling module alt_vipvfr131_vfr_controller
+# 
+# Top level modules:
+# 	alt_vipvfr131_vfr_controller
+# End time: 16:03:31 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:31 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v 
+# -- Compiling module alt_vipvfr131_vfr_control_packet_encoder
+# 
+# Top level modules:
+# 	alt_vipvfr131_vfr_control_packet_encoder
+# End time: 16:03:31 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:32 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc.v 
+# -- Compiling module alt_vipvfr131_prc
+# 
+# Top level modules:
+# 	alt_vipvfr131_prc
+# End time: 16:03:32 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_core.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:33 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_core.v 
+# -- Compiling module alt_vipvfr131_prc_core
+# 
+# Top level modules:
+# 	alt_vipvfr131_prc_core
+# End time: 16:03:33 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_read_master.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:33 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_prc_read_master.v 
+# -- Compiling module alt_vipvfr131_prc_read_master
+# 
+# Top level modules:
+# 	alt_vipvfr131_prc_read_master
+# End time: 16:03:33 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:33 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v 
+# -- Compiling module alt_vipvfr131_common_avalon_mm_slave
+# 
+# Top level modules:
+# 	alt_vipvfr131_common_avalon_mm_slave
+# End time: 16:03:33 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_stream_output.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:33 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipvfr131_common_stream_output.v 
+# -- Compiling module alt_vipvfr131_common_stream_output
+# 
+# Top level modules:
+# 	alt_vipvfr131_common_stream_output
+# End time: 16:03:33 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:33 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v 
+# -- Compiling module alt_vipitc131_IS2Vid_calculate_mode
+# 
+# Top level modules:
+# 	alt_vipitc131_IS2Vid_calculate_mode
+# End time: 16:03:36 on Mar 12,2016, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_control.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:36 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_control.v 
+# -- Compiling module alt_vipitc131_IS2Vid_control
+# 
+# Top level modules:
+# 	alt_vipitc131_IS2Vid_control
+# End time: 16:03:38 on Mar 12,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v 
+# -- Compiling module alt_vipitc131_IS2Vid_statemachine
+# 
+# Top level modules:
+# 	alt_vipitc131_IS2Vid_statemachine
+# End time: 16:03:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_fifo.v 
+# -- Compiling module alt_vipitc131_common_fifo
+# 
+# Top level modules:
+# 	alt_vipitc131_common_fifo
+# End time: 16:03:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_generic_count.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_generic_count.v 
+# -- Compiling module alt_vipitc131_common_generic_count
+# 
+# Top level modules:
+# 	alt_vipitc131_common_generic_count
+# End time: 16:03:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_sync.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_sync.v 
+# -- Compiling module alt_vipitc131_common_sync
+# 
+# Top level modules:
+# 	alt_vipitc131_common_sync
+# End time: 16:03:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_trigger_sync.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/alt_vipitc131_common_trigger_sync.v 
+# -- Compiling module alt_vipitc131_common_trigger_sync
+# 
+# Top level modules:
+# 	alt_vipitc131_common_trigger_sync
+# End time: 16:03:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_SDRAM.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_SDRAM.v 
+# -- Compiling module QSYS_lab4_SDRAM_input_efifo_module
+# -- Compiling module QSYS_lab4_SDRAM
+# 
+# Top level modules:
+# 	QSYS_lab4_SDRAM
+# End time: 16:03:39 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps {/home/julam5/Desktop/181_Lab4_current/lab4_hps/lab4.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:39 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps" /home/julam5/Desktop/181_Lab4_current/lab4_hps/lab4.v 
+# -- Compiling module lab4
+# 
+# Top level modules:
+# 	lab4
+# End time: 16:03:39 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps {/home/julam5/Desktop/181_Lab4_current/lab4_hps/four_7hex.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:39 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps" /home/julam5/Desktop/181_Lab4_current/lab4_hps/four_7hex.v 
+# -- Compiling module four_7hex
+# 
+# Top level modules:
+# 	four_7hex
+# End time: 16:03:39 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:39 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/sdram_master_lab4.v 
+# -- Compiling module sdram_master_lab4
+# 
+# Top level modules:
+# 	sdram_master_lab4
+# End time: 16:03:39 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:40 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper_001.sv 
+# -- Compiling module QSYS_lab4_irq_mapper_001
+# 
+# Top level modules:
+# 	QSYS_lab4_irq_mapper_001
+# End time: 16:03:40 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:40 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_irq_mapper.sv 
+# -- Compiling module QSYS_lab4_irq_mapper
+# 
+# Top level modules:
+# 	QSYS_lab4_irq_mapper
+# End time: 16:03:40 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:40 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	QSYS_lab4_mm_interconnect_2_avalon_st_adapter_error_adapter_0
+# End time: 16:03:40 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:40 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
+# -- Compiling module altera_avalon_st_handshake_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_handshake_clock_crosser
+# End time: 16:03:40 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:40 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_avalon_st_clock_crosser.v 
+# -- Compiling module altera_avalon_st_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_clock_crosser
+# End time: 16:03:40 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+cd /home/julam5/Desktop/181_Lab4_current/lab4_hps
+# reading /apps/Altera/15.0/modelsim_ae/linuxaloem/../modelsim.ini
+# vlog -sv -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:03:45 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work QSYS_lab4 "+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules" /home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules/altera_merlin_arbitrator.sv 
+# ** Error: (vlog-19) Failed to access library 'QSYS_lab4' at "QSYS_lab4".
+# No such file or directory. (errno = ENOENT)
+# End time: 16:03:45 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /apps/Altera/15.0/modelsim_ae/linuxaloem/vlog failed.
+# Error in macro ./lab4_run_msim_rtl_vhdl.do line 65
+# /apps/Altera/15.0/modelsim_ae/linuxaloem/vlog failed.
+#     while executing
+# "vlog -sv -work QSYS_lab4 +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps/QSYS_lab4/synthesis/submodules {/home/julam5/Desktop/181_Lab4_current/..."
+# Loading project lab4test

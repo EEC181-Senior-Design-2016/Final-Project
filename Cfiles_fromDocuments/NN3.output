@@ -1,0 +1,189 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 43.15     10.31    10.31 15680000     0.00     0.00  accessSdramLay1
+ 40.74     20.04     9.73      100    97.34   209.06  lay1calc
+  9.22     22.25     2.20      100    22.03    27.61  lay2calc
+  4.53     23.33     1.08 19880000     0.00     0.00  matrixMult
+  1.38     23.66     0.33  4000000     0.00     0.00  accessSdramLay2
+  0.59     23.80     0.14      100     1.40     2.22  layFcalc
+  0.29     23.87     0.07   200000     0.00     0.00  accessSdramLayF
+  0.15     23.90     0.04                             frame_dummy
+  0.08     23.92     0.02    41000     0.00     0.00  sigmoid
+  0.00     23.92     0.00     1000     0.00     0.00  compare2MaxVal
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.04% of 23.92 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     99.9    0.00   23.89                 main [1]
+                9.73   11.17     100/100         lay1calc [2]
+                2.20    0.56     100/100         lay2calc [4]
+                0.14    0.08     100/100         layFcalc [7]
+-----------------------------------------------
+                9.73   11.17     100/100         main [1]
+[2]     87.4    9.73   11.17     100         lay1calc [2]
+               10.31    0.00 15680000/15680000     accessSdramLay1 [3]
+                0.85    0.00 15680000/19880000     matrixMult [5]
+                0.01    0.00   20000/41000       sigmoid [10]
+-----------------------------------------------
+               10.31    0.00 15680000/15680000     lay1calc [2]
+[3]     43.1   10.31    0.00 15680000         accessSdramLay1 [3]
+-----------------------------------------------
+                2.20    0.56     100/100         main [1]
+[4]     11.5    2.20    0.56     100         lay2calc [4]
+                0.33    0.00 4000000/4000000     accessSdramLay2 [6]
+                0.22    0.00 4000000/19880000     matrixMult [5]
+                0.01    0.00   20000/41000       sigmoid [10]
+-----------------------------------------------
+                0.01    0.00  200000/19880000     layFcalc [7]
+                0.22    0.00 4000000/19880000     lay2calc [4]
+                0.85    0.00 15680000/19880000     lay1calc [2]
+[5]      4.5    1.08    0.00 19880000         matrixMult [5]
+-----------------------------------------------
+                0.33    0.00 4000000/4000000     lay2calc [4]
+[6]      1.4    0.33    0.00 4000000         accessSdramLay2 [6]
+-----------------------------------------------
+                0.14    0.08     100/100         main [1]
+[7]      0.9    0.14    0.08     100         layFcalc [7]
+                0.07    0.00  200000/200000      accessSdramLayF [8]
+                0.01    0.00  200000/19880000     matrixMult [5]
+                0.00    0.00    1000/41000       sigmoid [10]
+                0.00    0.00    1000/1000        compare2MaxVal [11]
+-----------------------------------------------
+                0.07    0.00  200000/200000      layFcalc [7]
+[8]      0.3    0.07    0.00  200000         accessSdramLayF [8]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      0.1    0.04    0.00                 frame_dummy [9]
+-----------------------------------------------
+                0.00    0.00    1000/41000       layFcalc [7]
+                0.01    0.00   20000/41000       lay1calc [2]
+                0.01    0.00   20000/41000       lay2calc [4]
+[10]     0.1    0.02    0.00   41000         sigmoid [10]
+-----------------------------------------------
+                0.00    0.00    1000/1000        layFcalc [7]
+[11]     0.0    0.00    0.00    1000         compare2MaxVal [11]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+   [3] accessSdramLay1         [9] frame_dummy             [5] matrixMult
+   [6] accessSdramLay2         [2] lay1calc               [10] sigmoid
+   [8] accessSdramLayF         [4] lay2calc
+  [11] compare2MaxVal          [7] layFcalc

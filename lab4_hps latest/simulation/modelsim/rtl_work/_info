@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/julam5/Desktop/181_Lab4_current/lab4_hps/simulation/modelsim
+vfour_7hex
+Z1 !s110 1457827419
+!i10b 1
+!s100 TW^T]h35C;L<7TKb>dIW`2
+IkacJ3g4YUBafYS2YlGo7z0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1455139866
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/four_7hex.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/four_7hex.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1457827419.740691
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/four_7hex.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps|/home/julam5/Desktop/181_Lab4_current/lab4_hps/four_7hex.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps
+vlab4
+R1
+!i10b 1
+!s100 f9bDIF2gnQ2@F_:i`7XBT0
+I8IRRIBnYo3MLBImHb7c1j2
+R2
+R0
+w1457399548
+8/home/julam5/Desktop/181_Lab4_current/lab4_hps/lab4.v
+F/home/julam5/Desktop/181_Lab4_current/lab4_hps/lab4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1457827419.512240
+!s107 /home/julam5/Desktop/181_Lab4_current/lab4_hps/lab4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/julam5/Desktop/181_Lab4_current/lab4_hps|/home/julam5/Desktop/181_Lab4_current/lab4_hps/lab4.v|
+!i113 1
+R4
+R5

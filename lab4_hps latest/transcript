@@ -1,0 +1,69 @@
+# Compile of sdram_master_lab4_problems_old.v was successful.
+vlog -work /home/julam5/Desktop/181_Lab4_current/lab4_hps/work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:59 on Mar 12,2016
+# vlog -reportprogress 300 -work /home/julam5/Desktop/181_Lab4_current/lab4_hps/work -refresh -force_refresh 
+# -- Refreshing module sdram_master_lab4
+# End time: 16:05:59 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work /home/julam5/Desktop/181_Lab4_current/lab4_hps/work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:59 on Mar 12,2016
+# vcom -reportprogress 300 -work /home/julam5/Desktop/181_Lab4_current/lab4_hps/work -refresh -force_refresh 
+# -- Skipping module sdram_master_lab4
+# End time: 16:05:59 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+cd /home/julam5/Desktop/181_Lab4_current
+# Compile of sdram_master_lab4_problems_old.v was successful.
+vsim work.sdram_master_lab4
+# vsim -i -l msim_transcript -do "lab4_run_msim_rtl_vhdl.do" 
+# Start time: 16:07:30 on Mar 12,2016
+# //  ModelSim ALTERA 10.3d Oct  7 2014 Linux 2.6.32-573.18.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.sdram_master_lab4
+add wave -position insertpoint  \
+sim:/sdram_master_lab4/clk \
+sim:/sdram_master_lab4/reset_n \
+sim:/sdram_master_lab4/waitrequest \
+sim:/sdram_master_lab4/ready \
+sim:/sdram_master_lab4/readdatavalid \
+sim:/sdram_master_lab4/readdata \
+sim:/sdram_master_lab4/toHexLed \
+sim:/sdram_master_lab4/chipselect \
+sim:/sdram_master_lab4/byteenable \
+sim:/sdram_master_lab4/done \
+sim:/sdram_master_lab4/read_n \
+sim:/sdram_master_lab4/write_n \
+sim:/sdram_master_lab4/writedata \
+sim:/sdram_master_lab4/address \
+sim:/sdram_master_lab4/State \
+sim:/sdram_master_lab4/State_next \
+sim:/sdram_master_lab4/Timer \
+sim:/sdram_master_lab4/address_read \
+sim:/sdram_master_lab4/address_write \
+sim:/sdram_master_lab4/Read_count \
+sim:/sdram_master_lab4/Buffer \
+sim:/sdram_master_lab4/Sdramframe
+force -freeze sim:/sdram_master_lab4/clk 1 0, 0 {50 ps} -r 100
+force -drive sim:/sdram_master_lab4/reset_n 1 0
+force -drive sim:/sdram_master_lab4/waitrequest 0 0
+force -freeze sim:/sdram_master_lab4/ready 1 0
+force -drive sim:/sdram_master_lab4/readdatavalid 1 0
+force -drive sim:/sdram_master_lab4/readdata 0000111100001010 0
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:27:52 on Mar 12,2016, Elapsed time: 0:20:22
+# Errors: 0, Warnings: 0
